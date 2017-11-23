@@ -10,7 +10,7 @@ Requirement
 * symfony/symfony
 * Composer [https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx]
 
-Install
+Installation - source file
 ---------
 
 ```bash
@@ -18,6 +18,16 @@ git clone git@github.com:davidhoo/china-unicom-tools.git
 cd china-unicom-tools
 composer install
 chmod +x ./chut
+```
+
+Installation - binary file
+---------
+```bash
+curl -s -o china-unicom-tools.v1.0.0.tar.gz 'https://codeload.github.com/davidhoo/china-unicom-tools/tar.gz/v1.0.0'
+tar zxvf china-unicom-tools.v1.0.0.tar.gz
+cd china-unicom-tools.v1.0.0/bin
+chmod +x chut
+mv chut /usr/local/bin/
 ```
 
 Usage
