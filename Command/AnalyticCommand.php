@@ -57,7 +57,7 @@ class AnalyticCommand extends Command
 
     private $urlListFile;
 
-    private $ipWhitelist;
+    private $ipWhitelist = [];
 
     private $urlWhitelist = [];
 
