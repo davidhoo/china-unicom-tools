@@ -14,7 +14,7 @@ Installation - source file
 ---------
 
 ```bash
-git clone git@github.com:davidhoo/china-unicom-tools.git
+git clone https://github.com/davidhoo/china-unicom-tools.git
 cd china-unicom-tools
 composer install
 chmod +x ./chut
