@@ -639,27 +639,38 @@ Installation - source file
 ---------
 
 ```bash
-git clone https://github.com/davidhoo/china-unicom-tools.git
-cd china-unicom-tools
-composer install
-chmod +x ./chut
+# git clone https://github.com/davidhoo/china-unicom-tools.git
+
+# cd china-unicom-tools
+
+# composer install
+
+# php build.php
+
+# chmod +x bin/chut
+
+# cp bin/chut /usr/local/bin/
 ```
 
 Installation - binary file
 ---------
 ```bash
-curl -s -o china-unicom-tools.v1.0.0.tar.gz 'https://codeload.github.com/davidhoo/china-unicom-tools/tar.gz/v1.0.0'
-tar zxvf china-unicom-tools.v1.0.0.tar.gz
-cd china-unicom-tools.v1.0.0/bin
-chmod +x chut
-mv chut /usr/local/bin/
+# curl -s -o china-unicom-tools.v1.0.0.tar.gz 'https://codeload.github.com/davidhoo/china-unicom-tools/tar.gz/v1.0.0'
+
+# tar zxvf china-unicom-tools.v1.0.0.tar.gz
+
+# cd china-unicom-tools.v1.0.0/bin
+
+# chmod +x chut
+
+# mv chut /usr/local/bin/
 ```
 
 Usage
 ---------
 
 ```bash
-./chut --help
+chut --help
 
 Usage:
   ana [options]
