@@ -74,7 +74,7 @@ Removed:
 
 Complete!
 
-# yum --enablerep=remi install libzip-last libzip-last-devel -y
+# yum --enablerepo=remi install libzip-last libzip-last-devel -y
 Loaded plugins: fastestmirror, ovl
 Setting up Install Process
 Loading mirror speeds from cached hostfile
@@ -120,7 +120,7 @@ Installed:
 
 Complete!
 
-# yum --enablerep=remi-php70 install cc gcc php php-pear php-devel php-pecl -y
+# yum --enablerepo=remi-php70 install cc gcc php php-pear php-devel php-pecl -y
 Loaded plugins: fastestmirror, ovl
 Setting up Install Process
 Loading mirror speeds from cached hostfile
