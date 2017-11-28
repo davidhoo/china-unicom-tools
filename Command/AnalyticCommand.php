@@ -89,7 +89,14 @@ class AnalyticCommand extends Command
 
     protected function execute(InputInterface $input, OutputInterface $output)
     {
+//        die(getcwd());
         $this->fileName = $input->getOption('file');
+
+        if (strpos($this->fileName, '/') !== 0) {
+            $this->fileName = getcwd() . DIRECTORY_SEPARATOR . $this->fileName;
+        }
+//        $this->fileName = getcwd() . DIRECTORY_SEPARATOR . $input->getOption('file');
+//        die($this->fileName);
         $this->ipListFile = $input->getOption('ip');
         $this->urlListFile = $input->getOption('url');
         $this->regex = $input->getOption('regex');
