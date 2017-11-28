@@ -28,9 +28,7 @@ warning: /var/tmp/rpm-tmp.CUMvpH: Header V4 DSA/SHA1 Signature, key ID 00f97f56:
 Preparing...                ########################################### [100%]
    1:remi-release           ########################################### [100%]
 
-# ls /etc/yum.repos.d/remi*
-/etc/yum.repos.d/remi-php54.repo  /etc/yum.repos.d/remi-php70.repo  /etc/yum.repos.d/remi-php71.repo  /etc/yum.repos.d/remi-php72.repo  /etc/yum.repos.d/remi-safe.repo  /etc/yum.repos.d/remi.repo
-[root@7ee3f156f212 /]# ls -l /etc/yum.repos.d/remi*
+# ls -l /etc/yum.repos.d/remi*
 -rw-r--r-- 1 root root  457 Jun 30 12:13 /etc/yum.repos.d/remi-php54.repo
 -rw-r--r-- 1 root root 1316 Jun 30 12:13 /etc/yum.repos.d/remi-php70.repo
 -rw-r--r-- 1 root root 1316 Jun 30 12:13 /etc/yum.repos.d/remi-php71.repo
@@ -655,11 +653,11 @@ Installation - source file
 Installation - binary file
 ---------
 ```bash
-# curl -s -o china-unicom-tools.v1.0.0.tar.gz 'https://codeload.github.com/davidhoo/china-unicom-tools/tar.gz/v1.0.0'
+# curl -s -o china-unicom-tools.v1.0.0.tar.gz 'https://codeload.github.com/davidhoo/china-unicom-tools/tar.gz/v1.0.1'
 
-# tar zxvf china-unicom-tools.v1.0.0.tar.gz
+# tar zxvf china-unicom-tools.v1.0.1.tar.gz
 
-# cd china-unicom-tools.v1.0.0/bin
+# cd china-unicom-tools.v1.0.1/bin
 
 # chmod +x chut
 
