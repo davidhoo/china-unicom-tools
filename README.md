@@ -653,7 +653,7 @@ Installation - source file
 Installation - binary file
 ---------
 ```bash
-# curl -s -o china-unicom-tools.v1.0.0.tar.gz 'https://codeload.github.com/davidhoo/china-unicom-tools/tar.gz/v1.0.1'
+# curl -s -o china-unicom-tools.v1.0.1.tar.gz 'https://codeload.github.com/davidhoo/china-unicom-tools/tar.gz/v1.0.1'
 
 # tar zxvf china-unicom-tools.v1.0.1.tar.gz
 
