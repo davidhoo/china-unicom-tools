@@ -9,7 +9,13 @@
 $phar = new Phar(__DIR__ . DIRECTORY_SEPARATOR . 'bin/chut.phar');
 
 //从src目录构建phar包
-$phar->buildFromDirectory('.');
+$phar->buildFromDirectory('.', "/.php/");
+$phar->addFile('Application.php');
+$phar->addFile('chut');
+//$phar->delete('build.php');
+//$phar->delete('.git');
+//$phar->delete('.DS_Store');
+//$phar->delete('.idea');
 
 //定义默认执行入口为index.php
 $defStub = Phar::createDefaultStub('chut');
